@@ -22,6 +22,5 @@ service apache2 restart
 
 # google grr for ubuntu 14.04 w/ python 2.7.9+
 wget https://raw.githubusercontent.com/google/grr/master/scripts/install_script_ubuntu.sh
-bash install_script_ubuntu.sh
-
+bash install_script_ubuntu.sh -dy
 
